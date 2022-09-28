@@ -13,4 +13,7 @@ INC_j - increment the j index - traverses the array from i to search for the min
 SWAP1 - one of the two cycles needed to swap the minimum value and the i-index
 SWAP2 - the second cycle for swap, ready to look at the next entry (next i-index)
 
+The Algorithm is written in verilog and instantiated inside a top_level module that instantiates the memory inside the DE1, as well
+
+The algorithm and the top level module are both testbenched extensively.
 
